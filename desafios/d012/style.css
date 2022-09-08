@@ -23,7 +23,7 @@ header {
 
 header > h1 {
     font-family: 'Passion One', cursive;
-    font-size: 144px;
+    font-size: 10vw;
     padding: 50px;
     font-variant:small-caps;
 }
@@ -48,11 +48,11 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
 }
 
 section.normal {
     background-color: white;
-    font-size: 50px;
     font-family: 'Sriracha', cursive;
 }
 
@@ -60,12 +60,20 @@ section.imagem {
     background-color: grey;
     color: white;
     font-family: 'Sriracha', cursive;
-    font-size: 50px;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.234);
-    width: 600px;
+    display: inline-block;
+    padding: 5px;
+}
+
+section#foto01 {
+    background-image: url('imagens/background001.jpg');
+}
+
+section#foto02 {
+    background-image: url('imagens/background002.jpg');
 }
 
 footer {
