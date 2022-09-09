@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclando Células</title>
+    <style>
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        caption {
+            border: 1px solid black;
+            background-color: rgb(12, 99, 95);
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: separate;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 30px
+        }
+
+        td.color {
+            background-color: rgb(176, 200, 199);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption> Desafio Número 2</caption>
+        <thead>
+            <tr>
+                <td colspan="4" class="color">A</td>
+                <td rowspan="4" class="color">B</td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="color">C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="color">N</td>
+            </tr>
+        </thead>    
+    </table>
+</body>
+</html>
